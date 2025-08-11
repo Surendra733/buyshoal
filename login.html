@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — Buyshoal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="w-full max-w-md p-8 bg-white rounded shadow">
+    <h1 class="text-2xl font-bold mb-4 text-center">Login to Buyshoal</h1>
+
+    <form id="loginForm" class="space-y-3">
+      <input id="email" type="email" placeholder="Email" required class="w-full border rounded px-3 py-2" />
+      <input id="password" type="password" placeholder="Password" required class="w-full border rounded px-3 py-2" />
+      <div id="error" class="text-sm text-red-600"></div>
+      <button class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600" type="submit">Login</button>
+    </form>
+
+    <p class="text-center text-sm mt-4">Don't have an account? <a href="signup.html" class="text-green-600 hover:underline">Sign up</a></p>
+  </div>
+
+  <script type="module">
+    import { auth } from "./firebase-config.js";
+    import { signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
+
+    const form = document.getElementById('loginForm');
+    const errEl = document.getElementById('error');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errEl.textContent = '';
+
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value;
+
+      try {
+        const userCredential = await signInWithEmailAndPassword(auth, email, password);
+        const user = userCredential.user;
+
+        // Optional: check if email is verified
+        if (!user.emailVerified) {
+          // You may allow login but restrict some actions unless verified
+          // For example:
+          alert('Please verify your email address. Check your inbox.');
+        }
+
+        // Redirect to main page
+        window.location.href = "index.html";
+      } catch (error) {
+        console.error(error);
+        if (error.code === 'auth/user-not-found') errEl.textContent = 'No account found with this email.';
+        else if (error.code === 'auth/wrong-password') errEl.textContent = 'Wrong password.';
+        else errEl.textContent = error.message || 'Login failed.';
+      }
+    });
+
+    // If user already signed in, redirect away from login page
+    onAuthStateChanged(auth, user => {
+      if (user) {
+        window.location.href = 'index.html';
+      }
+    });
+
+
+  </script>
+  <!-- firebase-config.js (load as module via <script type="module">) -->
+<script type="module">
+  // Import only what we need from the modular SDK (v9+)
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+  import { getAuth } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
+  import { getFirestore } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+
+  // TODO: replace these with your Firebase project config values
+  const firebaseConfig = {
+    apiKey: "AIzaSyCuAY4nY6gdUbrKN1elXrGTGX-pTR1a0bY",
+  authDomain: "buyshoal.firebaseapp.com",
+  projectId: "buyshoal",
+  storageBucket: "buyshoal.firebasestorage.app",
+  messagingSenderId: "948339055101",
+  appId: "1:948339055101:web:718c3f805697087c26a194"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  export const auth = getAuth(app);
+  export const db = getFirestore(app);
+</script>
+
+</body>
+</html>
