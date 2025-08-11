@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Signup — Buyshoal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="w-full max-w-md p-8 bg-white rounded shadow">
+    <h1 class="text-2xl font-bold mb-4 text-center">Create Your Account</h1>
+
+    <form id="signupForm" class="space-y-3">
+      <input id="name" type="text" placeholder="Full name" required class="w-full border rounded px-3 py-2" />
+      <input id="email" type="email" placeholder="Email" required class="w-full border rounded px-3 py-2" />
+      <input id="password" type="password" placeholder="Password (6+ chars)" required minlength="6" class="w-full border rounded px-3 py-2" />
+      <div id="error" class="text-sm text-red-600"></div>
+      <button class="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600" type="submit">Sign up</button>
+    </form>
+
+    <p class="text-center text-sm mt-4">
+      Already have an account?
+      <a href="login.html" class="text-blue-600 hover:underline">Login</a>
+    </p>
+  </div>
+
+  <!-- Firebase config module (replace config in this file) -->
+  <script type="module">
+    import { auth, db } from "./firebase-config.js"; // path to the file above
+    import { createUserWithEmailAndPassword, updateProfile, sendEmailVerification } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
+    import { doc, setDoc } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+
+    const form = document.getElementById('signupForm');
+    const errEl = document.getElementById('error');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errEl.textContent = '';
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value;
+
+      try {
+        // 1) create auth user
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        const user = userCredential.user;
+
+        // 2) update displayName
+        await updateProfile(user, { displayName: name });
+
+        // 3) save a small profile to Firestore (users collection)
+        await setDoc(doc(db, "users", user.uid), {
+          name,
+          email,
+          createdAt: new Date().toISOString()
+        });
+
+        // 4) optionally send verification email
+        await sendEmailVerification(user);
+
+        // 5) redirect to main page or show success
+        alert('Account created! Please check your email to verify your account.');
+        window.location.href = "index.html";
+      } catch (error) {
+        console.error(error);
+        // Map common errors for nicer messages
+        if (error.code === 'auth/email-already-in-use') errEl.textContent = 'Email already in use.';
+        else if (error.code === 'auth/invalid-email') errEl.textContent = 'Invalid email.';
+        else if (error.code === 'auth/weak-password') errEl.textContent = 'Weak password (min 6 chars).';
+        else errEl.textContent = error.message || 'Signup failed.';
+      }
+    });
+  </script>
+
+  <!-- firebase-config.js (load as module via <script type="module">) -->
+<script type="module">
+  // Import only what we need from the modular SDK (v9+)
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+  import { getAuth } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
+  import { getFirestore } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+
+  // TODO: replace these with your Firebase project config values
+  const firebaseConfig = {
+    apiKey: "AIzaSyCuAY4nY6gdUbrKN1elXrGTGX-pTR1a0bY",
+  authDomain: "buyshoal.firebaseapp.com",
+  projectId: "buyshoal",
+  storageBucket: "buyshoal.firebasestorage.app",
+  messagingSenderId: "948339055101",
+  appId: "1:948339055101:web:718c3f805697087c26a194"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  export const auth = getAuth(app);
+  export const db = getFirestore(app);
+</script>
+
+</body>
+</html>
