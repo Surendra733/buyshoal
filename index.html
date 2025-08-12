@@ -76,19 +76,25 @@
     </div>
 
     <!-- Navigation -->
-    <nav class="flex items-center gap-4">
-      <a href="#/products" class="text-sm text-gray-600 hidden sm:inline">Explore</a>
-      <a href="#/cart" class="relative">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4"/>
-          <path d="M16 21a1 1 0 11-2 0 1 1 0 012 0zm-8 0a1 1 0 11-2 0 1 1 0 012 0z"/>
-        </svg>
-        <span id="cartCount" class="absolute -top-2 -right-3 bg-red-500 text-white text-xs rounded-full px-1">0</span>
-      </a>
+   
+<nav class="flex items-center gap-4">
+  <a href="#/products" class="text-sm text-gray-600 hidden sm:inline">Explore</a>
+  
+  <!-- Profile link (hidden by default, shown after login) -->
+  <a id="profileLink" href="profile.html" class="text-sm text-gray-600 hidden sm:inline">Profile</a>
+  
+  <a href="#/cart" class="relative">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4"/>
+      <path d="M16 21a1 1 0 11-2 0 1 1 0 012 0zm-8 0a1 1 0 11-2 0 1 1 0 012 0z"/>
+    </svg>
+    <span id="cartCount" class="absolute -top-2 -right-3 bg-red-500 text-white text-xs rounded-full px-1">0</span>
+  </a>
 
-  <a href="login.html" class="bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600">Login</a>
-<a href="signup.html" class="bg-green-500 text-white px-4 py-1 rounded hover:bg-green-600">Signup</a>
+  <a id="loginBtn" href="login.html" class="bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600">Login</a>
+  <a id="signupBtn" href="signup.html" class="bg-green-500 text-white px-4 py-1 rounded hover:bg-green-600">Signup</a>
 </nav>
+
   </div>
 </header>
 
@@ -173,8 +179,8 @@
           <p class="mt-2">© <span id="year"></span> Buyshoal Pvt Ltd</p>
         </div>
         <div class="mt-4 md:mt-0">
-          <p>Support</p>
-          <p class="mt-2"></p>
+          <p>Support </p>
+          <p class="mt-2">surendrapandey5152@gmail.com</p>
         </div>
       </div>
     </div>
@@ -213,8 +219,8 @@
                 <div>
                     <h3 class="text-lg font-bold mb-4">Contact Us</h3>
                     <ul class="space-y-2">
-                        <li><a href="mailto:contact@buyshoal.com" class="text-gray-300 hover:text-white">contact@buyshoal.com</a></li>
-                        <li><a href="tel:+18001234567" class="text-gray-300 hover:text-white">1800 123 4567</a></li>
+                        <li><a href="mailto:contact@buyshoal.com" class="text-gray-300 hover:text-white">surendrapandey5152@gmail.com</a></li>
+                        <li><a href="tel:+18001234567" class="text-gray-300 hover:text-white">+918319428709</a></li>
                         <li>
                             <div class="flex space-x-4 mt-4">
                                 <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
@@ -227,7 +233,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                <p>© 2023 Buyshoal. All Rights Reserved.</p>
+                <p>© 2025 Buyshoal. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
