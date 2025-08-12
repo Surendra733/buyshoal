@@ -7,7 +7,7 @@
   <!-- SEO Title -->
   <title>Buyshoal — Online Shopping for Electronics, Fashion, Home & More</title>
 
-  <!-- Meta Description -->
+ <!-- Meta Description -->
   <meta name="description" content="Buyshoal - Best deals on electronics, fashion, home essentials & more. Shop online at lowest prices with fast delivery. Explore trending products today!">
 
   <!-- Meta Keywords -->
