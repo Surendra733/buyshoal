@@ -140,23 +140,44 @@
     </section>
 
     <!-- PRODUCT DETAIL -->
-    <section id="productView" class="container mx-auto px-4 py-8 hide">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="md:col-span-2 bg-white rounded shadow p-4">
-          <img id="prodImg" src="https://via.placeholder.com/600" alt="product" class="w-full h-96 object-contain"/>
-        </div>
-        <div class="bg-white rounded shadow p-4">
-          <h1 id="prodTitle" class="text-2xl font-semibold">Product Title</h1>
-          <p id="prodPrice" class="mt-2 text-2xl font-bold">₹0</p>
-          <p id="prodDesc" class="mt-4 text-sm text-gray-600">Description</p>
+<!-- PRODUCT DETAIL -->
+<section id="productView" class="container mx-auto px-4 py-6 hide">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Product Image -->
+    <div class="md:col-span-2 bg-white rounded shadow p-4 flex items-center justify-center">
+      <img id="prodImg" src="https://via.placeholder.com/600" 
+           alt="product" 
+           class="w-full max-h-[400px] object-contain"/>
+    </div>
 
-          <div class="mt-6 flex gap-3">
-            <button id="addCartBtn" class="bg-amber-400 px-4 py-2 rounded">Add to Cart</button>
-            <a href="#/cart" class="border px-4 py-2 rounded">Go to Cart</a>
-          </div>
-        </div>
+    <!-- Product Info -->
+    <div class="bg-white rounded shadow p-4 flex flex-col">
+      <h1 id="prodTitle" class="text-xl sm:text-2xl font-semibold">Product Title</h1>
+      <p id="prodPrice" class="mt-2 text-lg sm:text-2xl font-bold text-amber-500">₹0</p>
+      <p id="prodDesc" class="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">Description</p>
+
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <button id="addCartBtn" 
+                class="bg-amber-400 hover:bg-amber-500 px-4 py-2 rounded transition">
+          Add to Cart
+        </button>
+        <a href="#/cart" 
+           class="border px-4 py-2 rounded text-center hover:bg-gray-100 transition">
+          Go to Cart
+        </a>
       </div>
-    </section>
+    </div>
+  </div>
+
+  <!-- Related products -->
+  <div class="mt-10">
+    <h2 class="text-lg sm:text-xl font-semibold mb-4">Related Products</h2>
+    <div id="relatedProducts" 
+         class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4">
+      <!-- JS will populate cards here -->
+    </div>
+  </div>
+</section>
 
     <!-- CART -->
     <section id="cartView" class="container mx-auto px-4 py-8 hide">
@@ -179,8 +200,8 @@
           <p class="mt-2">© <span id="year"></span> Buyshoal Pvt Ltd</p>
         </div>
         <div class="mt-4 md:mt-0">
-          <p>Support </p>
-          <p class="mt-2">surendrapandey5152@gmail.com</p>
+          <p>Support</p>
+          <p class="mt-2"></p>
         </div>
       </div>
     </div>
@@ -219,8 +240,8 @@
                 <div>
                     <h3 class="text-lg font-bold mb-4">Contact Us</h3>
                     <ul class="space-y-2">
-                        <li><a href="mailto:contact@buyshoal.com" class="text-gray-300 hover:text-white"></a></li>
-                        <li><a href="tel:+18001234567" class="text-gray-300 hover:text-white">+918319428709</a></li>
+                        <li><a href="mailto:contact@buyshoal.com" class="text-gray-300 hover:text-white">contact@buyshoal.com</a></li>
+                        <li><a href="tel:+18001234567" class="text-gray-300 hover:text-white">1800 123 4567</a></li>
                         <li>
                             <div class="flex space-x-4 mt-4">
                                 <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
