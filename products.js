@@ -27,10 +27,6 @@
 
 
 
-
-
-
-
 let PRODUCTS = [];
 
 // products.json se data fetch karo
@@ -43,12 +39,24 @@ fetch('products.json')
   })
   .then(data => {
     PRODUCTS = data;
-    displayProducts(PRODUCTS); // data milte hi render karo
+    // Data load hote hi sab init karo
+    initApp();
+    displayProducts(PRODUCTS); // product list bhi dikhado
   })
   .catch(error => console.error(error));
 
+/************ Init ************/
+function initApp(){
+  document.getElementById('year').innerText = new Date().getFullYear();
+  updateCartCount();
+  router(); // correct view load kare
+}
+
+window.addEventListener('hashchange', router);
+
 function displayProducts(products) {
   const container = document.getElementById('products');
+  if (!container) return; // agar element exist nahi karta
   container.innerHTML = '';
 
   products.forEach(product => {
