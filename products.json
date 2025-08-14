@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "p1",
+    "name": "iPhone 15 Pro",
+    "price": 119900,
+    "image": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Latest Apple iPhone 15 Pro with A17 chip.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p2",
+    "name": "Samsung Galaxy S24",
+    "price": 89999,
+    "image": "https://m.media-amazon.com/images/I/81M4zm2+0FL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Flagship Samsung phone with great camera.",
+    "category": "Others"
+  },
+  {
+    "id": "p3",
+    "name": "Noise Headphones",
+    "price": 2999,
+    "image": "https://m.media-amazon.com/images/I/517lSvEVVsL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Wireless over-ear headphones.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p4",
+    "name": "Wooden Chair",
+    "price": 3499,
+    "image": "https://m.media-amazon.com/images/I/71r+dlqgg0L._AC_UL480_FMwebp_QL65_.jpg",
+    "desc": "Comfortable wooden chair for home.",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": "p5",
+    "name": "Men T-Shirt",
+    "price": 499,
+    "image": "https://m.media-amazon.com/images/I/713n+TxyfCL._AC_UL480_FMwebp_QL65_.jpg",
+    "desc": "100% cotton men t-shirt.",
+    "category": "Clothing"
+  },
+  {
+    "id": "p6",
+    "name": "Blender",
+    "price": 2499,
+    "image": "https://m.media-amazon.com/images/I/716Hcxia3SL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Kitchen blender for smoothies.",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": "p7",
+    "name": "Sneakers",
+    "price": 3299,
+    "image": "https://m.media-amazon.com/images/I/41JCSC7Pd7L._AC_UL480_FMwebp_QL65_.jpg",
+    "desc": "Sporty shoes for daily use.",
+    "category": "Clothing"
+  },
+  {
+    "id": "p8",
+    "name": "Watch",
+    "price": 5999,
+    "image": "https://m.media-amazon.com/images/I/61a2n5T8LiL._AC_UL480_FMwebp_QL65_.jpg",
+    "desc": "Stylish analog watch.",
+    "category": "Others"
+  },
+  {
+    "id": "p9",
+    "name": "Laptop Stand",
+    "price": 1999,
+    "image": "https://m.media-amazon.com/images/I/61kBmC8NfGL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Ergonomic laptop stand for better posture.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p10",
+    "name": "Wireless Mouse",
+    "price": 1299,
+    "image": "https://m.media-amazon.com/images/I/41KuRShR97L._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Comfortable wireless mouse for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p11",
+    "name": "Gaming Keyboard",
+    "price": 3499,
+    "image": "https://m.media-amazon.com/images/I/61Fcqrw7ilL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Mechanical gaming keyboard with RGB lighting.",
+    "category": "Others"
+  },
+  {
+    "id": "p12",
+    "name": "Smartwatch",
+    "price": 7999,
+    "image": "https://m.media-amazon.com/images/I/61dZKJiT06L._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Feature-rich smartwatch with fitness tracking.",
+    "category": "Others"
+  },
+  {
+    "id": "p13",
+    "name": "Portable Charger",
+    "price": 1499,
+    "image": "https://m.media-amazon.com/images/I/61CRsa2N6aL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "High-capacity portable charger for devices.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p14",
+    "name": "Bluetooth Speaker",
+    "price": 2999,
+    "image": "https://m.media-amazon.com/images/I/81lGxS2ZisL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Compact Bluetooth speaker with great sound.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p15",
+    "name": "Action Camera",
+    "price": 19999,
+    "image": "https://m.media-amazon.com/images/I/51IZ726J1TL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Waterproof action camera for adventures.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p16",
+    "name": "VR Headset",
+    "price": 24999,
+    "image": "https://m.media-amazon.com/images/I/61SWaiGhXpL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Immersive virtual reality headset.",
+    "category": "Others"
+  },
+  {
+    "id": "p17",
+    "name": "Wireless Earbuds",
+    "price": 3999,
+    "image": "https://m.media-amazon.com/images/I/511jgkd08sL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "True wireless earbuds with noise cancellation.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p18",
+    "name": "Smart Home Hub",
+    "price": 4999,
+    "image": "https://m.media-amazon.com/images/I/61tPYsj5cGL._AC_UL480_FMwebp_QL65_.jpg",
+    "desc": "Central hub for smart home devices.",
+    "category": "Others"
+  },
+  {
+    "id": "p19",
+    "name": "Electric Kettle",
+    "price": 1999,
+    "image": "https://m.media-amazon.com/images/I/61aEwgCHxSL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Fast boiling electric kettle.",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": "p20",
+    "name": "Air Fryer",
+    "price": 5999,
+    "image": "https://m.media-amazon.com/images/I/614NiEsDHgL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Healthy air fryer for cooking.",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": "p21",
+    "name": "Coffee Maker",
+    "price": 3499,
+    "image": "https://m.media-amazon.com/images/I/711xFPwLPIL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Automatic coffee maker for fresh brews.",
+    "category": "Others"
+  },
+  {
+    "id": "p22",
+    "name": "Coffee Maker",
+    "price": 349,
+    "image": "https://m.media-amazon.com/images/I/711xFPwLPIL._AC_UY327_FMwebp_QL65_.jpg",
+    "desc": "Autoatic coffee maker for fresh brews.",
+    "category": "Others"
+  },
+  {
+    "id": "p23",
+    "name": "Canon EOS R7 Camera",
+    "price": 96587,
+    "image": "https://picsum.photos/200?random=23",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p24",
+    "name": "Apple Watch Series 9",
+    "price": 137568,
+    "image": "https://picsum.photos/200?random=24",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p25",
+    "name": "Nike Air Max 270",
+    "price": 36904,
+    "image": "https://picsum.photos/200?random=25",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p26",
+    "name": "Apple Watch Series 9",
+    "price": 107751,
+    "image": "https://picsum.photos/200?random=26",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p27",
+    "name": "Adidas Ultraboost",
+    "price": 16051,
+    "image": "https://picsum.photos/200?random=27",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p28",
+    "name": "MacBook Air M3",
+    "price": 70594,
+    "image": "https://picsum.photos/200?random=28",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p29",
+    "name": "Nike Air Max 270",
+    "price": 96100,
+    "image": "https://picsum.photos/200?random=29",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p30",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 4656,
+    "image": "https://picsum.photos/200?random=30",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p31",
+    "name": "Dell XPS 15",
+    "price": 144991,
+    "image": "https://picsum.photos/200?random=31",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p32",
+    "name": "Dell XPS 15",
+    "price": 146458,
+    "image": "https://picsum.photos/200?random=32",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p33",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 141355,
+    "image": "https://picsum.photos/200?random=33",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p34",
+    "name": "Canon EOS R7 Camera",
+    "price": 91722,
+    "image": "https://picsum.photos/200?random=34",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p35",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 189658,
+    "image": "https://picsum.photos/200?random=35",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p36",
+    "name": "Canon EOS R7 Camera",
+    "price": 67653,
+    "image": "https://picsum.photos/200?random=36",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p37",
+    "name": "MacBook Air M3",
+    "price": 182719,
+    "image": "https://picsum.photos/200?random=37",
+    "desc": "Affordable and reliable choice.",
+    "category": "Books"
+  },
+  {
+    "id": "p38",
+    "name": "Canon EOS R7 Camera",
+    "price": 30998,
+    "image": "https://picsum.photos/200?random=38",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p39",
+    "name": "Apple Watch Series 9",
+    "price": 113558,
+    "image": "https://picsum.photos/200?random=39",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p40",
+    "name": "Apple Watch Series 9",
+    "price": 136292,
+    "image": "https://picsum.photos/200?random=40",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p41",
+    "name": "MacBook Air M3",
+    "price": 24644,
+    "image": "https://picsum.photos/200?random=41",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p42",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 58743,
+    "image": "https://picsum.photos/200?random=42",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p43",
+    "name": "Samsung Galaxy S24",
+    "price": 139109,
+    "image": "https://picsum.photos/200?random=43",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p44",
+    "name": "Nike Air Max 270",
+    "price": 163469,
+    "image": "https://picsum.photos/200?random=44",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p45",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 144702,
+    "image": "https://picsum.photos/200?random=45",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p46",
+    "name": "Dell XPS 15",
+    "price": 12145,
+    "image": "https://picsum.photos/200?random=46",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p47",
+    "name": "Dell XPS 15",
+    "price": 156549,
+    "image": "https://picsum.photos/200?random=47",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p48",
+    "name": "Canon EOS R7 Camera",
+    "price": 92930,
+    "image": "https://picsum.photos/200?random=48",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p49",
+    "name": "Adidas Ultraboost",
+    "price": 139853,
+    "image": "https://picsum.photos/200?random=49",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p50",
+    "name": "Nike Air Max 270",
+    "price": 159234,
+    "image": "https://picsum.photos/200?random=50",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p51",
+    "name": "Canon EOS R7 Camera",
+    "price": 147237,
+    "image": "https://picsum.photos/200?random=51",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p52",
+    "name": "Samsung Galaxy S24",
+    "price": 146910,
+    "image": "https://picsum.photos/200?random=52",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p53",
+    "name": "iPhone 15 Pro",
+    "price": 15214,
+    "image": "https://picsum.photos/200?random=53",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p54",
+    "name": "Dell XPS 15",
+    "price": 164338,
+    "image": "https://picsum.photos/200?random=54",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p55",
+    "name": "Dell XPS 15",
+    "price": 23697,
+    "image": "https://picsum.photos/200?random=55",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p56",
+    "name": "iPhone 15 Pro",
+    "price": 119244,
+    "image": "https://picsum.photos/200?random=56",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p57",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 85064,
+    "image": "https://picsum.photos/200?random=57",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p58",
+    "name": "Nike Air Max 270",
+    "price": 94261,
+    "image": "https://picsum.photos/200?random=58",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p59",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 106201,
+    "image": "https://picsum.photos/200?random=59",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p60",
+    "name": "Canon EOS R7 Camera",
+    "price": 1892,
+    "image": "https://picsum.photos/200?random=60",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p61",
+    "name": "MacBook Air M3",
+    "price": 131134,
+    "image": "https://picsum.photos/200?random=61",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p62",
+    "name": "Adidas Ultraboost",
+    "price": 17756,
+    "image": "https://picsum.photos/200?random=62",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p63",
+    "name": "Canon EOS R7 Camera",
+    "price": 196150,
+    "image": "https://picsum.photos/200?random=63",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p64",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 19326,
+    "image": "https://picsum.photos/200?random=64",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p65",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 95702,
+    "image": "https://picsum.photos/200?random=65",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p66",
+    "name": "MacBook Air M3",
+    "price": 173670,
+    "image": "https://picsum.photos/200?random=66",
+    "desc": "Affordable and reliable choice.",
+    "category": "Books"
+  },
+  {
+    "id": "p67",
+    "name": "Dell XPS 15",
+    "price": 165224,
+    "image": "https://picsum.photos/200?random=67",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p68",
+    "name": "Samsung Galaxy S24",
+    "price": 14487,
+    "image": "https://picsum.photos/200?random=68",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p69",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 115774,
+    "image": "https://picsum.photos/200?random=69",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p70",
+    "name": "Dell XPS 15",
+    "price": 60405,
+    "image": "https://picsum.photos/200?random=70",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p71",
+    "name": "Samsung Galaxy S24",
+    "price": 134184,
+    "image": "https://picsum.photos/200?random=71",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p72",
+    "name": "Samsung Galaxy S24",
+    "price": 56615,
+    "image": "https://picsum.photos/200?random=72",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p73",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 138795,
+    "image": "https://picsum.photos/200?random=73",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p74",
+    "name": "Canon EOS R7 Camera",
+    "price": 28764,
+    "image": "https://picsum.photos/200?random=74",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p75",
+    "name": "MacBook Air M3",
+    "price": 195138,
+    "image": "https://picsum.photos/200?random=75",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p76",
+    "name": "Apple Watch Series 9",
+    "price": 13329,
+    "image": "https://picsum.photos/200?random=76",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p77",
+    "name": "Adidas Ultraboost",
+    "price": 121833,
+    "image": "https://picsum.photos/200?random=77",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p78",
+    "name": "MacBook Air M3",
+    "price": 79415,
+    "image": "https://picsum.photos/200?random=78",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p79",
+    "name": "Nike Air Max 270",
+    "price": 198073,
+    "image": "https://picsum.photos/200?random=79",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p80",
+    "name": "iPhone 15 Pro",
+    "price": 161353,
+    "image": "https://picsum.photos/200?random=80",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p81",
+    "name": "Nike Air Max 270",
+    "price": 133883,
+    "image": "https://picsum.photos/200?random=81",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p82",
+    "name": "MacBook Air M3",
+    "price": 7161,
+    "image": "https://picsum.photos/200?random=82",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p83",
+    "name": "Nike Air Max 270",
+    "price": 23933,
+    "image": "https://picsum.photos/200?random=83",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p84",
+    "name": "Adidas Ultraboost",
+    "price": 190751,
+    "image": "https://picsum.photos/200?random=84",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p85",
+    "name": "Samsung Galaxy S24",
+    "price": 72696,
+    "image": "https://picsum.photos/200?random=85",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p86",
+    "name": "Samsung Galaxy S24",
+    "price": 145613,
+    "image": "https://picsum.photos/200?random=86",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p87",
+    "name": "MacBook Air M3",
+    "price": 81883,
+    "image": "https://picsum.photos/200?random=87",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p88",
+    "name": "Nike Air Max 270",
+    "price": 9489,
+    "image": "https://picsum.photos/200?random=88",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p89",
+    "name": "Canon EOS R7 Camera",
+    "price": 9758,
+    "image": "https://picsum.photos/200?random=89",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p90",
+    "name": "Dell XPS 15",
+    "price": 47346,
+    "image": "https://picsum.photos/200?random=90",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p91",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 109340,
+    "image": "https://picsum.photos/200?random=91",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p92",
+    "name": "Dell XPS 15",
+    "price": 30546,
+    "image": "https://picsum.photos/200?random=92",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p93",
+    "name": "Apple Watch Series 9",
+    "price": 22770,
+    "image": "https://picsum.photos/200?random=93",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p94",
+    "name": "Samsung Galaxy S24",
+    "price": 20005,
+    "image": "https://picsum.photos/200?random=94",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p95",
+    "name": "Adidas Ultraboost",
+    "price": 117784,
+    "image": "https://picsum.photos/200?random=95",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p96",
+    "name": "Dell XPS 15",
+    "price": 129634,
+    "image": "https://picsum.photos/200?random=96",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p97",
+    "name": "Samsung Galaxy S24",
+    "price": 74025,
+    "image": "https://picsum.photos/200?random=97",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p98",
+    "name": "Samsung Galaxy S24",
+    "price": 171785,
+    "image": "https://picsum.photos/200?random=98",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p99",
+    "name": "Nike Air Max 270",
+    "price": 23313,
+    "image": "https://picsum.photos/200?random=99",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p100",
+    "name": "Adidas Ultraboost",
+    "price": 167663,
+    "image": "https://picsum.photos/200?random=100",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p101",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 69311,
+    "image": "https://picsum.photos/200?random=101",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p102",
+    "name": "MacBook Air M3",
+    "price": 32550,
+    "image": "https://picsum.photos/200?random=102",
+    "desc": "High-quality product with latest features.",
+    "category": "Books"
+  },
+  {
+    "id": "p103",
+    "name": "Apple Watch Series 9",
+    "price": 57253,
+    "image": "https://picsum.photos/200?random=103",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p104",
+    "name": "Canon EOS R7 Camera",
+    "price": 148543,
+    "image": "https://picsum.photos/200?random=104",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p105",
+    "name": "Samsung Galaxy S24",
+    "price": 75097,
+    "image": "https://picsum.photos/200?random=105",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p106",
+    "name": "Nike Air Max 270",
+    "price": 177170,
+    "image": "https://picsum.photos/200?random=106",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p107",
+    "name": "Adidas Ultraboost",
+    "price": 52630,
+    "image": "https://picsum.photos/200?random=107",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p108",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 50692,
+    "image": "https://picsum.photos/200?random=108",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p109",
+    "name": "Apple Watch Series 9",
+    "price": 108066,
+    "image": "https://picsum.photos/200?random=109",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p110",
+    "name": "iPhone 15 Pro",
+    "price": 106855,
+    "image": "https://picsum.photos/200?random=110",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p111",
+    "name": "Dell XPS 15",
+    "price": 142978,
+    "image": "https://picsum.photos/200?random=111",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p112",
+    "name": "Apple Watch Series 9",
+    "price": 13885,
+    "image": "https://picsum.photos/200?random=112",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p113",
+    "name": "Adidas Ultraboost",
+    "price": 170697,
+    "image": "https://picsum.photos/200?random=113",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p114",
+    "name": "MacBook Air M3",
+    "price": 54885,
+    "image": "https://picsum.photos/200?random=114",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p115",
+    "name": "iPhone 15 Pro",
+    "price": 110462,
+    "image": "https://picsum.photos/200?random=115",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p116",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 108469,
+    "image": "https://picsum.photos/200?random=116",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p117",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 186113,
+    "image": "https://picsum.photos/200?random=117",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p118",
+    "name": "MacBook Air M3",
+    "price": 47762,
+    "image": "https://picsum.photos/200?random=118",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p119",
+    "name": "Adidas Ultraboost",
+    "price": 75219,
+    "image": "https://picsum.photos/200?random=119",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p120",
+    "name": "Samsung Galaxy S24",
+    "price": 63852,
+    "image": "https://picsum.photos/200?random=120",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p121",
+    "name": "MacBook Air M3",
+    "price": 45570,
+    "image": "https://picsum.photos/200?random=121",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p122",
+    "name": "MacBook Air M3",
+    "price": 26625,
+    "image": "https://picsum.photos/200?random=122",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p123",
+    "name": "Dell XPS 15",
+    "price": 50112,
+    "image": "https://picsum.photos/200?random=123",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p124",
+    "name": "iPhone 15 Pro",
+    "price": 162628,
+    "image": "https://picsum.photos/200?random=124",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p125",
+    "name": "Nike Air Max 270",
+    "price": 58309,
+    "image": "https://picsum.photos/200?random=125",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p126",
+    "name": "Canon EOS R7 Camera",
+    "price": 131954,
+    "image": "https://picsum.photos/200?random=126",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p127",
+    "name": "Adidas Ultraboost",
+    "price": 65784,
+    "image": "https://picsum.photos/200?random=127",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p128",
+    "name": "iPhone 15 Pro",
+    "price": 152607,
+    "image": "https://picsum.photos/200?random=128",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p129",
+    "name": "MacBook Air M3",
+    "price": 90626,
+    "image": "https://picsum.photos/200?random=129",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p130",
+    "name": "Adidas Ultraboost",
+    "price": 69931,
+    "image": "https://picsum.photos/200?random=130",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p131",
+    "name": "iPhone 15 Pro",
+    "price": 186197,
+    "image": "https://picsum.photos/200?random=131",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p132",
+    "name": "iPhone 15 Pro",
+    "price": 59689,
+    "image": "https://picsum.photos/200?random=132",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p133",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 15934,
+    "image": "https://picsum.photos/200?random=133",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p134",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 23518,
+    "image": "https://picsum.photos/200?random=134",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p135",
+    "name": "Dell XPS 15",
+    "price": 10851,
+    "image": "https://picsum.photos/200?random=135",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p136",
+    "name": "Dell XPS 15",
+    "price": 39028,
+    "image": "https://picsum.photos/200?random=136",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p137",
+    "name": "Dell XPS 15",
+    "price": 44657,
+    "image": "https://picsum.photos/200?random=137",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p138",
+    "name": "Canon EOS R7 Camera",
+    "price": 173942,
+    "image": "https://picsum.photos/200?random=138",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p139",
+    "name": "iPhone 15 Pro",
+    "price": 121047,
+    "image": "https://picsum.photos/200?random=139",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p140",
+    "name": "Dell XPS 15",
+    "price": 667,
+    "image": "https://picsum.photos/200?random=140",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p141",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 64266,
+    "image": "https://picsum.photos/200?random=141",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p142",
+    "name": "Samsung Galaxy S24",
+    "price": 54031,
+    "image": "https://picsum.photos/200?random=142",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p143",
+    "name": "MacBook Air M3",
+    "price": 71001,
+    "image": "https://picsum.photos/200?random=143",
+    "desc": "Affordable and reliable choice.",
+    "category": "Books"
+  },
+  {
+    "id": "p144",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 82881,
+    "image": "https://picsum.photos/200?random=144",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p145",
+    "name": "Apple Watch Series 9",
+    "price": 23490,
+    "image": "https://picsum.photos/200?random=145",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p146",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 69195,
+    "image": "https://picsum.photos/200?random=146",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p147",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 148629,
+    "image": "https://picsum.photos/200?random=147",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p148",
+    "name": "Canon EOS R7 Camera",
+    "price": 128423,
+    "image": "https://picsum.photos/200?random=148",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p149",
+    "name": "Samsung Galaxy S24",
+    "price": 112670,
+    "image": "https://picsum.photos/200?random=149",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p150",
+    "name": "Nike Air Max 270",
+    "price": 14326,
+    "image": "https://picsum.photos/200?random=150",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p151",
+    "name": "iPhone 15 Pro",
+    "price": 127045,
+    "image": "https://picsum.photos/200?random=151",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p152",
+    "name": "MacBook Air M3",
+    "price": 80726,
+    "image": "https://picsum.photos/200?random=152",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p153",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 111734,
+    "image": "https://picsum.photos/200?random=153",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p154",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 153650,
+    "image": "https://picsum.photos/200?random=154",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p155",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 73583,
+    "image": "https://picsum.photos/200?random=155",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p156",
+    "name": "MacBook Air M3",
+    "price": 153161,
+    "image": "https://picsum.photos/200?random=156",
+    "desc": "Affordable and reliable choice.",
+    "category": "Books"
+  },
+  {
+    "id": "p157",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 147988,
+    "image": "https://picsum.photos/200?random=157",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p158",
+    "name": "Samsung Galaxy S24",
+    "price": 127554,
+    "image": "https://picsum.photos/200?random=158",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p159",
+    "name": "Dell XPS 15",
+    "price": 14423,
+    "image": "https://picsum.photos/200?random=159",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p160",
+    "name": "MacBook Air M3",
+    "price": 183599,
+    "image": "https://picsum.photos/200?random=160",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p161",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 63917,
+    "image": "https://picsum.photos/200?random=161",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p162",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 151067,
+    "image": "https://picsum.photos/200?random=162",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p163",
+    "name": "Dell XPS 15",
+    "price": 43385,
+    "image": "https://picsum.photos/200?random=163",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p164",
+    "name": "MacBook Air M3",
+    "price": 34648,
+    "image": "https://picsum.photos/200?random=164",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p165",
+    "name": "Dell XPS 15",
+    "price": 89079,
+    "image": "https://picsum.photos/200?random=165",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p166",
+    "name": "Dell XPS 15",
+    "price": 43000,
+    "image": "https://picsum.photos/200?random=166",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p167",
+    "name": "iPhone 15 Pro",
+    "price": 169213,
+    "image": "https://picsum.photos/200?random=167",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p168",
+    "name": "Apple Watch Series 9",
+    "price": 3044,
+    "image": "https://picsum.photos/200?random=168",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p169",
+    "name": "MacBook Air M3",
+    "price": 110481,
+    "image": "https://picsum.photos/200?random=169",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p170",
+    "name": "Apple Watch Series 9",
+    "price": 37000,
+    "image": "https://picsum.photos/200?random=170",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p171",
+    "name": "Apple Watch Series 9",
+    "price": 27676,
+    "image": "https://picsum.photos/200?random=171",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p172",
+    "name": "iPhone 15 Pro",
+    "price": 84073,
+    "image": "https://picsum.photos/200?random=172",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p173",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 50424,
+    "image": "https://picsum.photos/200?random=173",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p174",
+    "name": "Canon EOS R7 Camera",
+    "price": 5877,
+    "image": "https://picsum.photos/200?random=174",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p175",
+    "name": "Canon EOS R7 Camera",
+    "price": 196220,
+    "image": "https://picsum.photos/200?random=175",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p176",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 12034,
+    "image": "https://picsum.photos/200?random=176",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p177",
+    "name": "Adidas Ultraboost",
+    "price": 98937,
+    "image": "https://picsum.photos/200?random=177",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p178",
+    "name": "Canon EOS R7 Camera",
+    "price": 87299,
+    "image": "https://picsum.photos/200?random=178",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p179",
+    "name": "MacBook Air M3",
+    "price": 68191,
+    "image": "https://picsum.photos/200?random=179",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p180",
+    "name": "Canon EOS R7 Camera",
+    "price": 187392,
+    "image": "https://picsum.photos/200?random=180",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p181",
+    "name": "Nike Air Max 270",
+    "price": 124452,
+    "image": "https://picsum.photos/200?random=181",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p182",
+    "name": "Nike Air Max 270",
+    "price": 136452,
+    "image": "https://picsum.photos/200?random=182",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p183",
+    "name": "Adidas Ultraboost",
+    "price": 192991,
+    "image": "https://picsum.photos/200?random=183",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p184",
+    "name": "Nike Air Max 270",
+    "price": 33945,
+    "image": "https://picsum.photos/200?random=184",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p185",
+    "name": "Dell XPS 15",
+    "price": 139937,
+    "image": "https://picsum.photos/200?random=185",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p186",
+    "name": "Dell XPS 15",
+    "price": 177917,
+    "image": "https://picsum.photos/200?random=186",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p187",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 34555,
+    "image": "https://picsum.photos/200?random=187",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p188",
+    "name": "iPhone 15 Pro",
+    "price": 177614,
+    "image": "https://picsum.photos/200?random=188",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p189",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 70656,
+    "image": "https://picsum.photos/200?random=189",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p190",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 190367,
+    "image": "https://picsum.photos/200?random=190",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p191",
+    "name": "iPhone 15 Pro",
+    "price": 129799,
+    "image": "https://picsum.photos/200?random=191",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p192",
+    "name": "Canon EOS R7 Camera",
+    "price": 51686,
+    "image": "https://picsum.photos/200?random=192",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p193",
+    "name": "Adidas Ultraboost",
+    "price": 133842,
+    "image": "https://picsum.photos/200?random=193",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p194",
+    "name": "Nike Air Max 270",
+    "price": 181065,
+    "image": "https://picsum.photos/200?random=194",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p195",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 180113,
+    "image": "https://picsum.photos/200?random=195",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p196",
+    "name": "iPhone 15 Pro",
+    "price": 173124,
+    "image": "https://picsum.photos/200?random=196",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p197",
+    "name": "iPhone 15 Pro",
+    "price": 69719,
+    "image": "https://picsum.photos/200?random=197",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p198",
+    "name": "Canon EOS R7 Camera",
+    "price": 30309,
+    "image": "https://picsum.photos/200?random=198",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p199",
+    "name": "MacBook Air M3",
+    "price": 178518,
+    "image": "https://picsum.photos/200?random=199",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p200",
+    "name": "Canon EOS R7 Camera",
+    "price": 25924,
+    "image": "https://picsum.photos/200?random=200",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p201",
+    "name": "iPhone 15 Pro",
+    "price": 112059,
+    "image": "https://picsum.photos/200?random=201",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p202",
+    "name": "iPhone 15 Pro",
+    "price": 47266,
+    "image": "https://picsum.photos/200?random=202",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p203",
+    "name": "Adidas Ultraboost",
+    "price": 123567,
+    "image": "https://picsum.photos/200?random=203",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p204",
+    "name": "Dell XPS 15",
+    "price": 134493,
+    "image": "https://picsum.photos/200?random=204",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p205",
+    "name": "Apple Watch Series 9",
+    "price": 67068,
+    "image": "https://picsum.photos/200?random=205",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p206",
+    "name": "Samsung Galaxy S24",
+    "price": 112357,
+    "image": "https://picsum.photos/200?random=206",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p207",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 71148,
+    "image": "https://picsum.photos/200?random=207",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p208",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 132451,
+    "image": "https://picsum.photos/200?random=208",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p209",
+    "name": "Canon EOS R7 Camera",
+    "price": 166154,
+    "image": "https://picsum.photos/200?random=209",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p210",
+    "name": "Canon EOS R7 Camera",
+    "price": 107687,
+    "image": "https://picsum.photos/200?random=210",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p211",
+    "name": "Dell XPS 15",
+    "price": 161182,
+    "image": "https://picsum.photos/200?random=211",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p212",
+    "name": "Dell XPS 15",
+    "price": 147313,
+    "image": "https://picsum.photos/200?random=212",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p213",
+    "name": "iPhone 15 Pro",
+    "price": 6016,
+    "image": "https://picsum.photos/200?random=213",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p214",
+    "name": "MacBook Air M3",
+    "price": 82587,
+    "image": "https://picsum.photos/200?random=214",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p215",
+    "name": "MacBook Air M3",
+    "price": 188290,
+    "image": "https://picsum.photos/200?random=215",
+    "desc": "Affordable and reliable choice.",
+    "category": "Books"
+  },
+  {
+    "id": "p216",
+    "name": "Adidas Ultraboost",
+    "price": 99447,
+    "image": "https://picsum.photos/200?random=216",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p217",
+    "name": "Apple Watch Series 9",
+    "price": 49366,
+    "image": "https://picsum.photos/200?random=217",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p218",
+    "name": "iPhone 15 Pro",
+    "price": 31106,
+    "image": "https://picsum.photos/200?random=218",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p219",
+    "name": "MacBook Air M3",
+    "price": 165559,
+    "image": "https://picsum.photos/200?random=219",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p220",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 65117,
+    "image": "https://picsum.photos/200?random=220",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p221",
+    "name": "MacBook Air M3",
+    "price": 175111,
+    "image": "https://picsum.photos/200?random=221",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p222",
+    "name": "Canon EOS R7 Camera",
+    "price": 191938,
+    "image": "https://picsum.photos/200?random=222",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p223",
+    "name": "Nike Air Max 270",
+    "price": 59637,
+    "image": "https://picsum.photos/200?random=223",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p224",
+    "name": "Apple Watch Series 9",
+    "price": 180011,
+    "image": "https://picsum.photos/200?random=224",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p225",
+    "name": "Nike Air Max 270",
+    "price": 168568,
+    "image": "https://picsum.photos/200?random=225",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p226",
+    "name": "Samsung Galaxy S24",
+    "price": 136961,
+    "image": "https://picsum.photos/200?random=226",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p227",
+    "name": "Canon EOS R7 Camera",
+    "price": 64694,
+    "image": "https://picsum.photos/200?random=227",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p228",
+    "name": "Canon EOS R7 Camera",
+    "price": 55884,
+    "image": "https://picsum.photos/200?random=228",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p229",
+    "name": "Adidas Ultraboost",
+    "price": 100838,
+    "image": "https://picsum.photos/200?random=229",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p230",
+    "name": "Dell XPS 15",
+    "price": 188003,
+    "image": "https://picsum.photos/200?random=230",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p231",
+    "name": "Dell XPS 15",
+    "price": 23080,
+    "image": "https://picsum.photos/200?random=231",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p232",
+    "name": "Apple Watch Series 9",
+    "price": 56975,
+    "image": "https://picsum.photos/200?random=232",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p233",
+    "name": "Apple Watch Series 9",
+    "price": 81178,
+    "image": "https://picsum.photos/200?random=233",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p234",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 195485,
+    "image": "https://picsum.photos/200?random=234",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p235",
+    "name": "Canon EOS R7 Camera",
+    "price": 84228,
+    "image": "https://picsum.photos/200?random=235",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p236",
+    "name": "Dell XPS 15",
+    "price": 104236,
+    "image": "https://picsum.photos/200?random=236",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p237",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 1562,
+    "image": "https://picsum.photos/200?random=237",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p238",
+    "name": "Dell XPS 15",
+    "price": 103103,
+    "image": "https://picsum.photos/200?random=238",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p239",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 194702,
+    "image": "https://picsum.photos/200?random=239",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p240",
+    "name": "Nike Air Max 270",
+    "price": 8243,
+    "image": "https://picsum.photos/200?random=240",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p241",
+    "name": "Dell XPS 15",
+    "price": 14755,
+    "image": "https://picsum.photos/200?random=241",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p242",
+    "name": "Samsung Galaxy S24",
+    "price": 75964,
+    "image": "https://picsum.photos/200?random=242",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p243",
+    "name": "iPhone 15 Pro",
+    "price": 60824,
+    "image": "https://picsum.photos/200?random=243",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p244",
+    "name": "iPhone 15 Pro",
+    "price": 55610,
+    "image": "https://picsum.photos/200?random=244",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p245",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 116419,
+    "image": "https://picsum.photos/200?random=245",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p246",
+    "name": "MacBook Air M3",
+    "price": 190934,
+    "image": "https://picsum.photos/200?random=246",
+    "desc": "Affordable and reliable choice.",
+    "category": "Books"
+  },
+  {
+    "id": "p247",
+    "name": "Dell XPS 15",
+    "price": 158932,
+    "image": "https://picsum.photos/200?random=247",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p248",
+    "name": "Dell XPS 15",
+    "price": 132057,
+    "image": "https://picsum.photos/200?random=248",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p249",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 90892,
+    "image": "https://picsum.photos/200?random=249",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p250",
+    "name": "Apple Watch Series 9",
+    "price": 93676,
+    "image": "https://picsum.photos/200?random=250",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p251",
+    "name": "Adidas Ultraboost",
+    "price": 141815,
+    "image": "https://picsum.photos/200?random=251",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p252",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 101026,
+    "image": "https://picsum.photos/200?random=252",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p253",
+    "name": "Apple Watch Series 9",
+    "price": 193855,
+    "image": "https://picsum.photos/200?random=253",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p254",
+    "name": "Nike Air Max 270",
+    "price": 52297,
+    "image": "https://picsum.photos/200?random=254",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p255",
+    "name": "iPhone 15 Pro",
+    "price": 105654,
+    "image": "https://picsum.photos/200?random=255",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p256",
+    "name": "Samsung Galaxy S24",
+    "price": 196673,
+    "image": "https://picsum.photos/200?random=256",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p257",
+    "name": "Nike Air Max 270",
+    "price": 172447,
+    "image": "https://picsum.photos/200?random=257",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p258",
+    "name": "Dell XPS 15",
+    "price": 95053,
+    "image": "https://picsum.photos/200?random=258",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p259",
+    "name": "Samsung Galaxy S24",
+    "price": 81558,
+    "image": "https://picsum.photos/200?random=259",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p260",
+    "name": "Canon EOS R7 Camera",
+    "price": 141126,
+    "image": "https://picsum.photos/200?random=260",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p261",
+    "name": "Dell XPS 15",
+    "price": 117478,
+    "image": "https://picsum.photos/200?random=261",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p262",
+    "name": "Dell XPS 15",
+    "price": 169467,
+    "image": "https://picsum.photos/200?random=262",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p263",
+    "name": "Samsung Galaxy S24",
+    "price": 196656,
+    "image": "https://picsum.photos/200?random=263",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p264",
+    "name": "Samsung Galaxy S24",
+    "price": 153953,
+    "image": "https://picsum.photos/200?random=264",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p265",
+    "name": "MacBook Air M3",
+    "price": 157954,
+    "image": "https://picsum.photos/200?random=265",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p266",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 21896,
+    "image": "https://picsum.photos/200?random=266",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p267",
+    "name": "MacBook Air M3",
+    "price": 130815,
+    "image": "https://picsum.photos/200?random=267",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p268",
+    "name": "MacBook Air M3",
+    "price": 61201,
+    "image": "https://picsum.photos/200?random=268",
+    "desc": "Affordable and reliable choice.",
+    "category": "Books"
+  },
+  {
+    "id": "p269",
+    "name": "Dell XPS 15",
+    "price": 91048,
+    "image": "https://picsum.photos/200?random=269",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p270",
+    "name": "iPhone 15 Pro",
+    "price": 195039,
+    "image": "https://picsum.photos/200?random=270",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p271",
+    "name": "Apple Watch Series 9",
+    "price": 141667,
+    "image": "https://picsum.photos/200?random=271",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p272",
+    "name": "Adidas Ultraboost",
+    "price": 104906,
+    "image": "https://picsum.photos/200?random=272",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p273",
+    "name": "Adidas Ultraboost",
+    "price": 35069,
+    "image": "https://picsum.photos/200?random=273",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p274",
+    "name": "Dell XPS 15",
+    "price": 15280,
+    "image": "https://picsum.photos/200?random=274",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p275",
+    "name": "Canon EOS R7 Camera",
+    "price": 110507,
+    "image": "https://picsum.photos/200?random=275",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p276",
+    "name": "Dell XPS 15",
+    "price": 100266,
+    "image": "https://picsum.photos/200?random=276",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p277",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 140777,
+    "image": "https://picsum.photos/200?random=277",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p278",
+    "name": "Dell XPS 15",
+    "price": 96047,
+    "image": "https://picsum.photos/200?random=278",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p279",
+    "name": "Samsung Galaxy S24",
+    "price": 100320,
+    "image": "https://picsum.photos/200?random=279",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p280",
+    "name": "Apple Watch Series 9",
+    "price": 70018,
+    "image": "https://picsum.photos/200?random=280",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p281",
+    "name": "Samsung Galaxy S24",
+    "price": 109613,
+    "image": "https://picsum.photos/200?random=281",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p282",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 81654,
+    "image": "https://picsum.photos/200?random=282",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p283",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 58179,
+    "image": "https://picsum.photos/200?random=283",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p284",
+    "name": "Apple Watch Series 9",
+    "price": 191938,
+    "image": "https://picsum.photos/200?random=284",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p285",
+    "name": "Nike Air Max 270",
+    "price": 77004,
+    "image": "https://picsum.photos/200?random=285",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p286",
+    "name": "Dell XPS 15",
+    "price": 105848,
+    "image": "https://picsum.photos/200?random=286",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p287",
+    "name": "Dell XPS 15",
+    "price": 45470,
+    "image": "https://picsum.photos/200?random=287",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p288",
+    "name": "Adidas Ultraboost",
+    "price": 6783,
+    "image": "https://picsum.photos/200?random=288",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p289",
+    "name": "Canon EOS R7 Camera",
+    "price": 91626,
+    "image": "https://picsum.photos/200?random=289",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p290",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 116313,
+    "image": "https://picsum.photos/200?random=290",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p291",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 86875,
+    "image": "https://picsum.photos/200?random=291",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p292",
+    "name": "Nike Air Max 270",
+    "price": 68970,
+    "image": "https://picsum.photos/200?random=292",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p293",
+    "name": "Adidas Ultraboost",
+    "price": 184816,
+    "image": "https://picsum.photos/200?random=293",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p294",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 165235,
+    "image": "https://picsum.photos/200?random=294",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p295",
+    "name": "Nike Air Max 270",
+    "price": 174011,
+    "image": "https://picsum.photos/200?random=295",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p296",
+    "name": "Adidas Ultraboost",
+    "price": 130349,
+    "image": "https://picsum.photos/200?random=296",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p297",
+    "name": "Adidas Ultraboost",
+    "price": 123575,
+    "image": "https://picsum.photos/200?random=297",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p298",
+    "name": "MacBook Air M3",
+    "price": 75135,
+    "image": "https://picsum.photos/200?random=298",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p299",
+    "name": "Dell XPS 15",
+    "price": 14042,
+    "image": "https://picsum.photos/200?random=299",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p300",
+    "name": "Canon EOS R7 Camera",
+    "price": 62285,
+    "image": "https://picsum.photos/200?random=300",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p301",
+    "name": "Apple Watch Series 9",
+    "price": 164953,
+    "image": "https://picsum.photos/200?random=301",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p302",
+    "name": "Nike Air Max 270",
+    "price": 149864,
+    "image": "https://picsum.photos/200?random=302",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p303",
+    "name": "Samsung Galaxy S24",
+    "price": 104735,
+    "image": "https://picsum.photos/200?random=303",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p304",
+    "name": "iPhone 15 Pro",
+    "price": 135634,
+    "image": "https://picsum.photos/200?random=304",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p305",
+    "name": "Apple Watch Series 9",
+    "price": 117593,
+    "image": "https://picsum.photos/200?random=305",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p306",
+    "name": "Apple Watch Series 9",
+    "price": 75752,
+    "image": "https://picsum.photos/200?random=306",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p307",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 11086,
+    "image": "https://picsum.photos/200?random=307",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p308",
+    "name": "iPhone 15 Pro",
+    "price": 163367,
+    "image": "https://picsum.photos/200?random=308",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p309",
+    "name": "Nike Air Max 270",
+    "price": 9996,
+    "image": "https://picsum.photos/200?random=309",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p310",
+    "name": "Adidas Ultraboost",
+    "price": 114196,
+    "image": "https://picsum.photos/200?random=310",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p311",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 163603,
+    "image": "https://picsum.photos/200?random=311",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p312",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 116490,
+    "image": "https://picsum.photos/200?random=312",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p313",
+    "name": "iPhone 15 Pro",
+    "price": 186204,
+    "image": "https://picsum.photos/200?random=313",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p314",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 157935,
+    "image": "https://picsum.photos/200?random=314",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p315",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 92766,
+    "image": "https://picsum.photos/200?random=315",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p316",
+    "name": "iPhone 15 Pro",
+    "price": 81356,
+    "image": "https://picsum.photos/200?random=316",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p317",
+    "name": "Canon EOS R7 Camera",
+    "price": 28865,
+    "image": "https://picsum.photos/200?random=317",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p318",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 135553,
+    "image": "https://picsum.photos/200?random=318",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p319",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 134258,
+    "image": "https://picsum.photos/200?random=319",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p320",
+    "name": "Canon EOS R7 Camera",
+    "price": 99551,
+    "image": "https://picsum.photos/200?random=320",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p321",
+    "name": "Adidas Ultraboost",
+    "price": 179599,
+    "image": "https://picsum.photos/200?random=321",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p322",
+    "name": "Adidas Ultraboost",
+    "price": 17289,
+    "image": "https://picsum.photos/200?random=322",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p323",
+    "name": "iPhone 15 Pro",
+    "price": 158620,
+    "image": "https://picsum.photos/200?random=323",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p324",
+    "name": "iPhone 15 Pro",
+    "price": 163216,
+    "image": "https://picsum.photos/200?random=324",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p325",
+    "name": "Nike Air Max 270",
+    "price": 111814,
+    "image": "https://picsum.photos/200?random=325",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p326",
+    "name": "Dell XPS 15",
+    "price": 16622,
+    "image": "https://picsum.photos/200?random=326",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p327",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 110622,
+    "image": "https://picsum.photos/200?random=327",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p328",
+    "name": "MacBook Air M3",
+    "price": 31344,
+    "image": "https://picsum.photos/200?random=328",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p329",
+    "name": "MacBook Air M3",
+    "price": 113730,
+    "image": "https://picsum.photos/200?random=329",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p330",
+    "name": "Canon EOS R7 Camera",
+    "price": 172894,
+    "image": "https://picsum.photos/200?random=330",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p331",
+    "name": "Nike Air Max 270",
+    "price": 20478,
+    "image": "https://picsum.photos/200?random=331",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p332",
+    "name": "Dell XPS 15",
+    "price": 134130,
+    "image": "https://picsum.photos/200?random=332",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p333",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 34326,
+    "image": "https://picsum.photos/200?random=333",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p334",
+    "name": "Canon EOS R7 Camera",
+    "price": 43507,
+    "image": "https://picsum.photos/200?random=334",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p335",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 159187,
+    "image": "https://picsum.photos/200?random=335",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p336",
+    "name": "Samsung Galaxy S24",
+    "price": 136896,
+    "image": "https://picsum.photos/200?random=336",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p337",
+    "name": "MacBook Air M3",
+    "price": 60086,
+    "image": "https://picsum.photos/200?random=337",
+    "desc": "High-quality product with latest features.",
+    "category": "Books"
+  },
+  {
+    "id": "p338",
+    "name": "Canon EOS R7 Camera",
+    "price": 92120,
+    "image": "https://picsum.photos/200?random=338",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p339",
+    "name": "Nike Air Max 270",
+    "price": 137159,
+    "image": "https://picsum.photos/200?random=339",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p340",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 100313,
+    "image": "https://picsum.photos/200?random=340",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p341",
+    "name": "MacBook Air M3",
+    "price": 144116,
+    "image": "https://picsum.photos/200?random=341",
+    "desc": "Affordable and reliable choice.",
+    "category": "Books"
+  },
+  {
+    "id": "p342",
+    "name": "Canon EOS R7 Camera",
+    "price": 174203,
+    "image": "https://picsum.photos/200?random=342",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p343",
+    "name": "iPhone 15 Pro",
+    "price": 14117,
+    "image": "https://picsum.photos/200?random=343",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p344",
+    "name": "Canon EOS R7 Camera",
+    "price": 140904,
+    "image": "https://picsum.photos/200?random=344",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p345",
+    "name": "Apple Watch Series 9",
+    "price": 117685,
+    "image": "https://picsum.photos/200?random=345",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p346",
+    "name": "Adidas Ultraboost",
+    "price": 191455,
+    "image": "https://picsum.photos/200?random=346",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p347",
+    "name": "Canon EOS R7 Camera",
+    "price": 65100,
+    "image": "https://picsum.photos/200?random=347",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p348",
+    "name": "MacBook Air M3",
+    "price": 169024,
+    "image": "https://picsum.photos/200?random=348",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p349",
+    "name": "Canon EOS R7 Camera",
+    "price": 73895,
+    "image": "https://picsum.photos/200?random=349",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p350",
+    "name": "iPhone 15 Pro",
+    "price": 135886,
+    "image": "https://picsum.photos/200?random=350",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p351",
+    "name": "Samsung Galaxy S24",
+    "price": 196176,
+    "image": "https://picsum.photos/200?random=351",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p352",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 173099,
+    "image": "https://picsum.photos/200?random=352",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p353",
+    "name": "Samsung Galaxy S24",
+    "price": 167783,
+    "image": "https://picsum.photos/200?random=353",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p354",
+    "name": "Nike Air Max 270",
+    "price": 62694,
+    "image": "https://picsum.photos/200?random=354",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p355",
+    "name": "Apple Watch Series 9",
+    "price": 47622,
+    "image": "https://picsum.photos/200?random=355",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p356",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 155138,
+    "image": "https://picsum.photos/200?random=356",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p357",
+    "name": "Nike Air Max 270",
+    "price": 152358,
+    "image": "https://picsum.photos/200?random=357",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p358",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 198282,
+    "image": "https://picsum.photos/200?random=358",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p359",
+    "name": "Samsung Galaxy S24",
+    "price": 110979,
+    "image": "https://picsum.photos/200?random=359",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p360",
+    "name": "Adidas Ultraboost",
+    "price": 17870,
+    "image": "https://picsum.photos/200?random=360",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p361",
+    "name": "Dell XPS 15",
+    "price": 13352,
+    "image": "https://picsum.photos/200?random=361",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p362",
+    "name": "Adidas Ultraboost",
+    "price": 86468,
+    "image": "https://picsum.photos/200?random=362",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p363",
+    "name": "Apple Watch Series 9",
+    "price": 30105,
+    "image": "https://picsum.photos/200?random=363",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p364",
+    "name": "Canon EOS R7 Camera",
+    "price": 117695,
+    "image": "https://picsum.photos/200?random=364",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p365",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 11073,
+    "image": "https://picsum.photos/200?random=365",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p366",
+    "name": "iPhone 15 Pro",
+    "price": 148630,
+    "image": "https://picsum.photos/200?random=366",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p367",
+    "name": "iPhone 15 Pro",
+    "price": 184306,
+    "image": "https://picsum.photos/200?random=367",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p368",
+    "name": "Nike Air Max 270",
+    "price": 31842,
+    "image": "https://picsum.photos/200?random=368",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p369",
+    "name": "Adidas Ultraboost",
+    "price": 119261,
+    "image": "https://picsum.photos/200?random=369",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p370",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 157678,
+    "image": "https://picsum.photos/200?random=370",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p371",
+    "name": "Adidas Ultraboost",
+    "price": 153857,
+    "image": "https://picsum.photos/200?random=371",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p372",
+    "name": "iPhone 15 Pro",
+    "price": 1476,
+    "image": "https://picsum.photos/200?random=372",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p373",
+    "name": "Dell XPS 15",
+    "price": 74403,
+    "image": "https://picsum.photos/200?random=373",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p374",
+    "name": "Canon EOS R7 Camera",
+    "price": 115952,
+    "image": "https://picsum.photos/200?random=374",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p375",
+    "name": "MacBook Air M3",
+    "price": 40330,
+    "image": "https://picsum.photos/200?random=375",
+    "desc": "Limited edition model with premium design.",
+    "category": "Books"
+  },
+  {
+    "id": "p376",
+    "name": "Nike Air Max 270",
+    "price": 73519,
+    "image": "https://picsum.photos/200?random=376",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p377",
+    "name": "MacBook Air M3",
+    "price": 59882,
+    "image": "https://picsum.photos/200?random=377",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p378",
+    "name": "iPhone 15 Pro",
+    "price": 65223,
+    "image": "https://picsum.photos/200?random=378",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p379",
+    "name": "Dell XPS 15",
+    "price": 20887,
+    "image": "https://picsum.photos/200?random=379",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p380",
+    "name": "Apple Watch Series 9",
+    "price": 35782,
+    "image": "https://picsum.photos/200?random=380",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p381",
+    "name": "Nike Air Max 270",
+    "price": 108409,
+    "image": "https://picsum.photos/200?random=381",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p382",
+    "name": "Dell XPS 15",
+    "price": 121215,
+    "image": "https://picsum.photos/200?random=382",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p383",
+    "name": "Nike Air Max 270",
+    "price": 192325,
+    "image": "https://picsum.photos/200?random=383",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p384",
+    "name": "iPhone 15 Pro",
+    "price": 73047,
+    "image": "https://picsum.photos/200?random=384",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p385",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 146370,
+    "image": "https://picsum.photos/200?random=385",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p386",
+    "name": "Samsung Galaxy S24",
+    "price": 158715,
+    "image": "https://picsum.photos/200?random=386",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p387",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 68095,
+    "image": "https://picsum.photos/200?random=387",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p388",
+    "name": "Adidas Ultraboost",
+    "price": 64384,
+    "image": "https://picsum.photos/200?random=388",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p389",
+    "name": "Dell XPS 15",
+    "price": 122434,
+    "image": "https://picsum.photos/200?random=389",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p390",
+    "name": "Canon EOS R7 Camera",
+    "price": 199395,
+    "image": "https://picsum.photos/200?random=390",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p391",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 27446,
+    "image": "https://picsum.photos/200?random=391",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p392",
+    "name": "Apple Watch Series 9",
+    "price": 105698,
+    "image": "https://picsum.photos/200?random=392",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p393",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 144818,
+    "image": "https://picsum.photos/200?random=393",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p394",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 157572,
+    "image": "https://picsum.photos/200?random=394",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p395",
+    "name": "Adidas Ultraboost",
+    "price": 65329,
+    "image": "https://picsum.photos/200?random=395",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p396",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 163915,
+    "image": "https://picsum.photos/200?random=396",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p397",
+    "name": "Apple Watch Series 9",
+    "price": 46385,
+    "image": "https://picsum.photos/200?random=397",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p398",
+    "name": "iPhone 15 Pro",
+    "price": 114089,
+    "image": "https://picsum.photos/200?random=398",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p399",
+    "name": "iPhone 15 Pro",
+    "price": 86994,
+    "image": "https://picsum.photos/200?random=399",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p400",
+    "name": "Canon EOS R7 Camera",
+    "price": 7128,
+    "image": "https://picsum.photos/200?random=400",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p401",
+    "name": "Nike Air Max 270",
+    "price": 119716,
+    "image": "https://picsum.photos/200?random=401",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p402",
+    "name": "Nike Air Max 270",
+    "price": 122297,
+    "image": "https://picsum.photos/200?random=402",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p403",
+    "name": "Adidas Ultraboost",
+    "price": 173367,
+    "image": "https://picsum.photos/200?random=403",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p404",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 35347,
+    "image": "https://picsum.photos/200?random=404",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p405",
+    "name": "Dell XPS 15",
+    "price": 144394,
+    "image": "https://picsum.photos/200?random=405",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p406",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 76041,
+    "image": "https://picsum.photos/200?random=406",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p407",
+    "name": "Adidas Ultraboost",
+    "price": 74753,
+    "image": "https://picsum.photos/200?random=407",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p408",
+    "name": "Nike Air Max 270",
+    "price": 9113,
+    "image": "https://picsum.photos/200?random=408",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p409",
+    "name": "iPhone 15 Pro",
+    "price": 136373,
+    "image": "https://picsum.photos/200?random=409",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p410",
+    "name": "Samsung Galaxy S24",
+    "price": 114779,
+    "image": "https://picsum.photos/200?random=410",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p411",
+    "name": "Canon EOS R7 Camera",
+    "price": 79757,
+    "image": "https://picsum.photos/200?random=411",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p412",
+    "name": "MacBook Air M3",
+    "price": 107291,
+    "image": "https://picsum.photos/200?random=412",
+    "desc": "High-quality product with latest features.",
+    "category": "Books"
+  },
+  {
+    "id": "p413",
+    "name": "Canon EOS R7 Camera",
+    "price": 68025,
+    "image": "https://picsum.photos/200?random=413",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p414",
+    "name": "MacBook Air M3",
+    "price": 135772,
+    "image": "https://picsum.photos/200?random=414",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p415",
+    "name": "Samsung Galaxy S24",
+    "price": 47115,
+    "image": "https://picsum.photos/200?random=415",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p416",
+    "name": "Apple Watch Series 9",
+    "price": 169202,
+    "image": "https://picsum.photos/200?random=416",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p417",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 148752,
+    "image": "https://picsum.photos/200?random=417",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p418",
+    "name": "iPhone 15 Pro",
+    "price": 187695,
+    "image": "https://picsum.photos/200?random=418",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p419",
+    "name": "Dell XPS 15",
+    "price": 139151,
+    "image": "https://picsum.photos/200?random=419",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p420",
+    "name": "Dell XPS 15",
+    "price": 34693,
+    "image": "https://picsum.photos/200?random=420",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p421",
+    "name": "Canon EOS R7 Camera",
+    "price": 68632,
+    "image": "https://picsum.photos/200?random=421",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p422",
+    "name": "Adidas Ultraboost",
+    "price": 198008,
+    "image": "https://picsum.photos/200?random=422",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p423",
+    "name": "MacBook Air M3",
+    "price": 65002,
+    "image": "https://picsum.photos/200?random=423",
+    "desc": "High-quality product with latest features.",
+    "category": "Books"
+  },
+  {
+    "id": "p424",
+    "name": "iPhone 15 Pro",
+    "price": 65671,
+    "image": "https://picsum.photos/200?random=424",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p425",
+    "name": "Adidas Ultraboost",
+    "price": 91001,
+    "image": "https://picsum.photos/200?random=425",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p426",
+    "name": "iPhone 15 Pro",
+    "price": 140268,
+    "image": "https://picsum.photos/200?random=426",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p427",
+    "name": "Nike Air Max 270",
+    "price": 113883,
+    "image": "https://picsum.photos/200?random=427",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p428",
+    "name": "Samsung Galaxy S24",
+    "price": 180075,
+    "image": "https://picsum.photos/200?random=428",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p429",
+    "name": "Dell XPS 15",
+    "price": 199315,
+    "image": "https://picsum.photos/200?random=429",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p430",
+    "name": "Apple Watch Series 9",
+    "price": 189872,
+    "image": "https://picsum.photos/200?random=430",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p431",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 198704,
+    "image": "https://picsum.photos/200?random=431",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p432",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 170004,
+    "image": "https://picsum.photos/200?random=432",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p433",
+    "name": "MacBook Air M3",
+    "price": 113182,
+    "image": "https://picsum.photos/200?random=433",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p434",
+    "name": "iPhone 15 Pro",
+    "price": 114296,
+    "image": "https://picsum.photos/200?random=434",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p435",
+    "name": "Nike Air Max 270",
+    "price": 109538,
+    "image": "https://picsum.photos/200?random=435",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p436",
+    "name": "iPhone 15 Pro",
+    "price": 104756,
+    "image": "https://picsum.photos/200?random=436",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p437",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 109337,
+    "image": "https://picsum.photos/200?random=437",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p438",
+    "name": "Dell XPS 15",
+    "price": 113185,
+    "image": "https://picsum.photos/200?random=438",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p439",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 160584,
+    "image": "https://picsum.photos/200?random=439",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p440",
+    "name": "Canon EOS R7 Camera",
+    "price": 4925,
+    "image": "https://picsum.photos/200?random=440",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p441",
+    "name": "Nike Air Max 270",
+    "price": 9791,
+    "image": "https://picsum.photos/200?random=441",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p442",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 106883,
+    "image": "https://picsum.photos/200?random=442",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p443",
+    "name": "iPhone 15 Pro",
+    "price": 10065,
+    "image": "https://picsum.photos/200?random=443",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p444",
+    "name": "Adidas Ultraboost",
+    "price": 50667,
+    "image": "https://picsum.photos/200?random=444",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p445",
+    "name": "Samsung Galaxy S24",
+    "price": 62397,
+    "image": "https://picsum.photos/200?random=445",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p446",
+    "name": "Canon EOS R7 Camera",
+    "price": 66370,
+    "image": "https://picsum.photos/200?random=446",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p447",
+    "name": "Adidas Ultraboost",
+    "price": 158977,
+    "image": "https://picsum.photos/200?random=447",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p448",
+    "name": "Canon EOS R7 Camera",
+    "price": 149268,
+    "image": "https://picsum.photos/200?random=448",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p449",
+    "name": "Dell XPS 15",
+    "price": 154795,
+    "image": "https://picsum.photos/200?random=449",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p450",
+    "name": "Nike Air Max 270",
+    "price": 89625,
+    "image": "https://picsum.photos/200?random=450",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p451",
+    "name": "Dell XPS 15",
+    "price": 160222,
+    "image": "https://picsum.photos/200?random=451",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p452",
+    "name": "Apple Watch Series 9",
+    "price": 109730,
+    "image": "https://picsum.photos/200?random=452",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p453",
+    "name": "Apple Watch Series 9",
+    "price": 13747,
+    "image": "https://picsum.photos/200?random=453",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p454",
+    "name": "Canon EOS R7 Camera",
+    "price": 53876,
+    "image": "https://picsum.photos/200?random=454",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p455",
+    "name": "Adidas Ultraboost",
+    "price": 108101,
+    "image": "https://picsum.photos/200?random=455",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p456",
+    "name": "MacBook Air M3",
+    "price": 144562,
+    "image": "https://picsum.photos/200?random=456",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p457",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 79732,
+    "image": "https://picsum.photos/200?random=457",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p458",
+    "name": "Samsung Galaxy S24",
+    "price": 86644,
+    "image": "https://picsum.photos/200?random=458",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p459",
+    "name": "MacBook Air M3",
+    "price": 105942,
+    "image": "https://picsum.photos/200?random=459",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p460",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 194841,
+    "image": "https://picsum.photos/200?random=460",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p461",
+    "name": "Adidas Ultraboost",
+    "price": 68142,
+    "image": "https://picsum.photos/200?random=461",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p462",
+    "name": "Adidas Ultraboost",
+    "price": 170980,
+    "image": "https://picsum.photos/200?random=462",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p463",
+    "name": "Dell XPS 15",
+    "price": 123322,
+    "image": "https://picsum.photos/200?random=463",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p464",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 173418,
+    "image": "https://picsum.photos/200?random=464",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p465",
+    "name": "MacBook Air M3",
+    "price": 109969,
+    "image": "https://picsum.photos/200?random=465",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Books"
+  },
+  {
+    "id": "p466",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 188080,
+    "image": "https://picsum.photos/200?random=466",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p467",
+    "name": "Adidas Ultraboost",
+    "price": 2128,
+    "image": "https://picsum.photos/200?random=467",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p468",
+    "name": "Nike Air Max 270",
+    "price": 155747,
+    "image": "https://picsum.photos/200?random=468",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p469",
+    "name": "Apple Watch Series 9",
+    "price": 167160,
+    "image": "https://picsum.photos/200?random=469",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p470",
+    "name": "Nike Air Max 270",
+    "price": 148949,
+    "image": "https://picsum.photos/200?random=470",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p471",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 53633,
+    "image": "https://picsum.photos/200?random=471",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p472",
+    "name": "Canon EOS R7 Camera",
+    "price": 139868,
+    "image": "https://picsum.photos/200?random=472",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p473",
+    "name": "Nike Air Max 270",
+    "price": 48036,
+    "image": "https://picsum.photos/200?random=473",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p474",
+    "name": "Dell XPS 15",
+    "price": 11035,
+    "image": "https://picsum.photos/200?random=474",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p475",
+    "name": "Apple Watch Series 9",
+    "price": 196853,
+    "image": "https://picsum.photos/200?random=475",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p476",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 90820,
+    "image": "https://picsum.photos/200?random=476",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p477",
+    "name": "iPhone 15 Pro",
+    "price": 56330,
+    "image": "https://picsum.photos/200?random=477",
+    "desc": "Affordable and reliable choice.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p478",
+    "name": "Dell XPS 15",
+    "price": 189212,
+    "image": "https://picsum.photos/200?random=478",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p479",
+    "name": "MacBook Air M3",
+    "price": 52472,
+    "image": "https://picsum.photos/200?random=479",
+    "desc": "High-quality product with latest features.",
+    "category": "Books"
+  },
+  {
+    "id": "p480",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 176765,
+    "image": "https://picsum.photos/200?random=480",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p481",
+    "name": "Apple Watch Series 9",
+    "price": 19728,
+    "image": "https://picsum.photos/200?random=481",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p482",
+    "name": "Samsung Galaxy S24",
+    "price": 184451,
+    "image": "https://picsum.photos/200?random=482",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p483",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 18803,
+    "image": "https://picsum.photos/200?random=483",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p484",
+    "name": "MacBook Air M3",
+    "price": 151531,
+    "image": "https://picsum.photos/200?random=484",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Books"
+  },
+  {
+    "id": "p485",
+    "name": "Samsung Galaxy S24",
+    "price": 87820,
+    "image": "https://picsum.photos/200?random=485",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p486",
+    "name": "Nike Air Max 270",
+    "price": 60913,
+    "image": "https://picsum.photos/200?random=486",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p487",
+    "name": "Dell XPS 15",
+    "price": 98523,
+    "image": "https://picsum.photos/200?random=487",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p488",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 77860,
+    "image": "https://picsum.photos/200?random=488",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p489",
+    "name": "Samsung Galaxy S24",
+    "price": 71374,
+    "image": "https://picsum.photos/200?random=489",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p490",
+    "name": "Adidas Ultraboost",
+    "price": 2076,
+    "image": "https://picsum.photos/200?random=490",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p491",
+    "name": "Apple Watch Series 9",
+    "price": 23044,
+    "image": "https://picsum.photos/200?random=491",
+    "desc": "High-quality product with latest features.",
+    "category": "Others"
+  },
+  {
+    "id": "p492",
+    "name": "Dell XPS 15",
+    "price": 1377,
+    "image": "https://picsum.photos/200?random=492",
+    "desc": "Limited edition model with premium design.",
+    "category": "Others"
+  },
+  {
+    "id": "p493",
+    "name": "Samsung Galaxy S24",
+    "price": 159355,
+    "image": "https://picsum.photos/200?random=493",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p494",
+    "name": "MacBook Air M3",
+    "price": 26646,
+    "image": "https://picsum.photos/200?random=494",
+    "desc": "High-quality product with latest features.",
+    "category": "Books"
+  },
+  {
+    "id": "p495",
+    "name": "Dell XPS 15",
+    "price": 135612,
+    "image": "https://picsum.photos/200?random=495",
+    "desc": "Affordable and reliable choice.",
+    "category": "Others"
+  },
+  {
+    "id": "p496",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 119759,
+    "image": "https://picsum.photos/200?random=496",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p497",
+    "name": "Dell XPS 15",
+    "price": 16065,
+    "image": "https://picsum.photos/200?random=497",
+    "desc": "Durable and stylish, perfect for daily use.",
+    "category": "Others"
+  },
+  {
+    "id": "p498",
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 57235,
+    "image": "https://picsum.photos/200?random=498",
+    "desc": "Top-selling item with great reviews.",
+    "category": "Others"
+  },
+  {
+    "id": "p499",
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 129149,
+    "image": "https://picsum.photos/200?random=499",
+    "desc": "Limited edition model with premium design.",
+    "category": "Electronics"
+  },
+  {
+    "id": "p500",
+    "name": "iPhone 15 Pro",
+    "price": 101105,
+    "image": "https://picsum.photos/200?random=500",
+    "desc": "High-quality product with latest features.",
+    "category": "Electronics"
+  }
+]
