@@ -36,7 +36,7 @@
   function renderTrending(){
     const grid = document.getElementById('trendingGrid');
     grid.innerHTML = '';
-    PRODUCTS.slice(0,8).forEach(p => {
+    PRODUCTS.slice(0,16).forEach(p => {
       const card = el('div', { class: 'bg-white rounded-lg shadow-sm overflow-hidden p-3' }, [
         el('a', { href: `#/product/${p.id}`, class: 'block' }, [
           el('img', { src: p.image, class: 'w-full card-img bg-gray-50', alt: p.name })
@@ -234,3 +234,38 @@
     alert('Checkout flow not implemented in demo. Integrate your backend to create orders & payments.');
   });
 
+
+
+
+// related product dikhne ke liye hai 
+
+  function renderProductDetail(id){
+  const product = PRODUCTS.find(x=> x.id === id);
+  if(!product) return navTo('/');
+  
+  document.getElementById('prodImg').src = product.image;
+  document.getElementById('prodTitle').innerText = product.name;
+  document.getElementById('prodPrice').innerText = `₹${product.price}`;
+  document.getElementById('prodDesc').innerText = product.desc;
+  document.getElementById('addCartBtn').onclick = ()=> { 
+    addToCart(product.id); 
+    alert('Added to cart'); 
+  };
+
+  // ---- Related products section ----
+  const relatedGrid = document.getElementById('relatedProducts');
+  if(relatedGrid){
+    relatedGrid.innerHTML = '';
+    const related = PRODUCTS.filter(p => p.category === product.category && p.id !== product.id);
+    related.slice(0, 8).forEach(p => {
+      const card = el('div', { class: 'bg-white rounded-lg shadow-sm overflow-hidden p-3 w-48' }, [
+        el('a', { href: `#/product/${p.id}`, class: 'block' }, [
+          el('img', { src: p.image, class: 'w-full h-32 object-contain bg-gray-50', alt: p.name })
+        ]),
+        el('h3', { class: 'mt-2 text-sm font-medium' }, p.name),
+        el('p', { class: 'text-lg font-bold' }, `₹${p.price}`)
+      ]);
+      relatedGrid.appendChild(card);
+    });
+  }
+}
