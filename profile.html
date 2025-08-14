@@ -6,15 +6,41 @@
   <title>My Profile — Buyshoal</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center">
-  <div class="w-full max-w-md bg-white p-6 rounded shadow">
-    <h1 class="text-2xl font-bold mb-4">My Profile</h1>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+  <div class="w-full max-w-2xl bg-white p-6 rounded shadow">
+    <h1 class="text-2xl font-bold mb-6">My Profile</h1>
 
-    <form id="profileForm" class="space-y-3">
-      <input id="email" type="email" disabled class="w-full border rounded px-3 py-2" />
-      <input id="mobile" type="text" placeholder="Mobile Number" required class="w-full border rounded px-3 py-2" />
+    <form id="profileForm" class="space-y-4">
+      <!-- Personal Info -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input id="fullName" type="text" placeholder="Full Name" required class="w-full border rounded px-3 py-2" />
+        <input id="email" type="email" disabled class="w-full border rounded px-3 py-2 bg-gray-100" />
+        <select id="gender" class="w-full border rounded px-3 py-2">
+          <option value="">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <input id="dob" type="date" class="w-full border rounded px-3 py-2" />
+      </div>
+
+      <!-- Contact Info -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input id="mobile" type="text" placeholder="Mobile Number" required class="w-full border rounded px-3 py-2" />
+        <input id="altMobile" type="text" placeholder="Alternate Mobile" class="w-full border rounded px-3 py-2" />
+      </div>
+
+      <!-- Address -->
       <textarea id="address" placeholder="Delivery Address" required class="w-full border rounded px-3 py-2"></textarea>
-      <button class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600" type="submit">Save</button>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <input id="pincode" type="text" placeholder="PIN Code" required class="w-full border rounded px-3 py-2" />
+        <input id="city" type="text" placeholder="City" required class="w-full border rounded px-3 py-2" />
+        <input id="state" type="text" placeholder="State" required class="w-full border rounded px-3 py-2" />
+      </div>
+
+      <button class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600" type="submit">
+        Save Profile
+      </button>
     </form>
 
     <button id="logoutBtn" class="mt-4 w-full bg-red-500 text-white py-2 rounded hover:bg-red-600">Logout</button>
@@ -25,9 +51,18 @@
     import { doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
     import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
 
+    // Form elements
+    const fullNameEl = document.getElementById('fullName');
     const emailEl = document.getElementById('email');
+    const genderEl = document.getElementById('gender');
+    const dobEl = document.getElementById('dob');
     const mobileEl = document.getElementById('mobile');
+    const altMobileEl = document.getElementById('altMobile');
     const addressEl = document.getElementById('address');
+    const pincodeEl = document.getElementById('pincode');
+    const cityEl = document.getElementById('city');
+    const stateEl = document.getElementById('state');
+
     const form = document.getElementById('profileForm');
     const logoutBtn = document.getElementById('logoutBtn');
 
@@ -41,27 +76,41 @@
       currentUser = user;
       emailEl.value = user.email;
 
-      // Load existing profile data
+      // Fetch profile from Firestore
       const userRef = doc(db, "users", user.uid);
       const snap = await getDoc(userRef);
       if (snap.exists()) {
         const data = snap.data();
+        fullNameEl.value = data.fullName || "";
+        genderEl.value = data.gender || "";
+        dobEl.value = data.dob || "";
         mobileEl.value = data.mobile || "";
+        altMobileEl.value = data.altMobile || "";
         addressEl.value = data.address || "";
+        pincodeEl.value = data.pincode || "";
+        cityEl.value = data.city || "";
+        stateEl.value = data.state || "";
       }
     });
 
     // Save profile
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      if (!currentUser) 
-      return;
+      if (!currentUser) return;
 
       await setDoc(doc(db, "users", currentUser.uid), {
         email: currentUser.email,
+        fullName: fullNameEl.value.trim(),
+        gender: genderEl.value,
+        dob: dobEl.value,
         mobile: mobileEl.value.trim(),
-        address: addressEl.value.trim()
-      });
+        altMobile: altMobileEl.value.trim(),
+        address: addressEl.value.trim(),
+        pincode: pincodeEl.value.trim(),
+        city: cityEl.value.trim(),
+        state: stateEl.value.trim()
+      }, { merge: true });
+
       alert("Profile updated successfully!");
       window.location.href = "index.html";
     });
